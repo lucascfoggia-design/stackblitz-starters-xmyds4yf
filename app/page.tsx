@@ -126,19 +126,22 @@ export default async function Home() {
               </p>
             </div>
 
-            <button
-              style={{
-                background: 'var(--cor-destaque)',
-                border: 'none',
-                color: '#ffffff',
-                padding: '12px 18px',
-                borderRadius: '7px',
-                fontWeight: 'bold',
-                cursor: 'pointer',
-              }}
-            >
-              + Novo insumo
-            </button>
+            <a
+  href="/insumos/novo"
+  style={{
+    background: 'var(--cor-destaque)',
+    border: 'none',
+    color: '#ffffff',
+    padding: '12px 18px',
+    borderRadius: '7px',
+    fontWeight: 'bold',
+    cursor: 'pointer',
+    textDecoration: 'none',
+    display: 'inline-block',
+  }}
+>
+  + Novo insumo
+</a>
           </div>
 
           {/* RESUMO */}
